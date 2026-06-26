@@ -1,0 +1,218 @@
+{
+  "SpatialDomainNet_1DPI": {
+    "model": "SpatialDomainNet",
+    "test_sample": "1DPI",
+    "accuracy": 0.6505604947816003,
+    "f1_macro": 0.6330833320997863,
+    "f1_weighted": 0.6450839222499684,
+    "ari": 0.6845377310286862,
+    "nmi": 0.7937090677255345
+  },
+  "DualGCN_1DPI": {
+    "model": "DualGCN",
+    "test_sample": "1DPI",
+    "accuracy": 0.6320061847700039,
+    "f1_macro": 0.6099444004349671,
+    "f1_weighted": 0.6229745234959514,
+    "ari": 0.6617397581758252,
+    "nmi": 0.7686637324393216
+  },
+  "SpatialGAT_1DPI": {
+    "model": "SpatialGAT",
+    "test_sample": "1DPI",
+    "accuracy": 0.655585620409741,
+    "f1_macro": 0.6431857362374742,
+    "f1_weighted": 0.6514578069643057,
+    "ari": 0.6878311756960743,
+    "nmi": 0.796537122689771
+  },
+  "FeatureGAT_1DPI": {
+    "model": "FeatureGAT",
+    "test_sample": "1DPI",
+    "accuracy": 0.6370313103981445,
+    "f1_macro": 0.621931406371718,
+    "f1_weighted": 0.6350734706543025,
+    "ari": 0.6772496684365481,
+    "nmi": 0.7848875682849952
+  },
+  "ExprOnly_1DPI": {
+    "model": "ExprOnly",
+    "test_sample": "1DPI",
+    "accuracy": 0.6316196366447623,
+    "f1_macro": 0.6048662400013588,
+    "f1_weighted": 0.622438062471345,
+    "ari": 0.6641169859997781,
+    "nmi": 0.7626769631988761
+  },
+  "RF_1DPI": {
+    "model": "RF",
+    "test_sample": "1DPI",
+    "accuracy": 0.6432160804020101,
+    "f1_macro": 0.6498943116223842,
+    "f1_weighted": 0.6308259705340632,
+    "ari": 0.6555804588875568,
+    "nmi": 0.7800102127297989
+  },
+  "SpatialDomainNet_3DPI": {
+    "model": "SpatialDomainNet",
+    "test_sample": "3DPI",
+    "accuracy": 0.7345511076564322,
+    "f1_macro": 0.630542164203743,
+    "f1_weighted": 0.7352049638483201,
+    "ari": 0.8358312123307539,
+    "nmi": 0.8373676990751916
+  },
+  "DualGCN_3DPI": {
+    "model": "DualGCN",
+    "test_sample": "3DPI",
+    "accuracy": 0.7213369607462107,
+    "f1_macro": 0.6261905232360572,
+    "f1_weighted": 0.7246437994938365,
+    "ari": 0.8005571155956522,
+    "nmi": 0.8203769253565351
+  },
+  "SpatialGAT_3DPI": {
+    "model": "SpatialGAT",
+    "test_sample": "3DPI",
+    "accuracy": 0.727555382821609,
+    "f1_macro": 0.6108997291579952,
+    "f1_weighted": 0.7293324158313211,
+    "ari": 0.8227458879759759,
+    "nmi": 0.8277881572479645
+  },
+  "FeatureGAT_3DPI": {
+    "model": "FeatureGAT",
+    "test_sample": "3DPI",
+    "accuracy": 0.7291099883404586,
+    "f1_macro": 0.619614011091162,
+    "f1_weighted": 0.7308119831008548,
+    "ari": 0.8121818329463146,
+    "nmi": 0.8189601965883272
+  },
+  "ExprOnly_3DPI": {
+    "model": "ExprOnly",
+    "test_sample": "3DPI",
+    "accuracy": 0.7162844928099494,
+    "f1_macro": 0.6181015809951009,
+    "f1_weighted": 0.7188508398202158,
+    "ari": 0.7999894625080901,
+    "nmi": 0.8032668904800486
+  },
+  "RF_3DPI": {
+    "model": "RF",
+    "test_sample": "3DPI",
+    "accuracy": 0.727555382821609,
+    "f1_macro": 0.6587527433182098,
+    "f1_weighted": 0.7271811540371571,
+    "ari": 0.8108748965524382,
+    "nmi": 0.8446772432768473
+  },
+  "SpatialDomainNet_7DPI": {
+    "model": "SpatialDomainNet",
+    "test_sample": "7DPI",
+    "accuracy": 0.7781201848998459,
+    "f1_macro": 0.5748092365764131,
+    "f1_weighted": 0.7687128845672437,
+    "ari": 0.7425165841948036,
+    "nmi": 0.7522987233935263
+  },
+  "DualGCN_7DPI": {
+    "model": "DualGCN",
+    "test_sample": "7DPI",
+    "accuracy": 0.764637904468413,
+    "f1_macro": 0.561166334899104,
+    "f1_weighted": 0.7583754052862438,
+    "ari": 0.7148616537937471,
+    "nmi": 0.7218674214550216
+  },
+  "SpatialGAT_7DPI": {
+    "model": "SpatialGAT",
+    "test_sample": "7DPI",
+    "accuracy": 0.7754237288135594,
+    "f1_macro": 0.5563056100021734,
+    "f1_weighted": 0.7689461379775567,
+    "ari": 0.7319207743163874,
+    "nmi": 0.7473985321242916
+  },
+  "FeatureGAT_7DPI": {
+    "model": "FeatureGAT",
+    "test_sample": "7DPI",
+    "accuracy": 0.7812018489984591,
+    "f1_macro": 0.5893702587679692,
+    "f1_weighted": 0.7733483505042489,
+    "ari": 0.7549714441459081,
+    "nmi": 0.759538219516656
+  },
+  "ExprOnly_7DPI": {
+    "model": "ExprOnly",
+    "test_sample": "7DPI",
+    "accuracy": 0.7954545454545454,
+    "f1_macro": 0.5879450233722998,
+    "f1_weighted": 0.7893357267145122,
+    "ari": 0.778998555945552,
+    "nmi": 0.7848809498483298
+  },
+  "RF_7DPI": {
+    "model": "RF",
+    "test_sample": "7DPI",
+    "accuracy": 0.7996918335901386,
+    "f1_macro": 0.6504667578363386,
+    "f1_weighted": 0.8094150519283794,
+    "ari": 0.7808904464704922,
+    "nmi": 0.7990271627007215
+  },
+  "SpatialDomainNet_Ctrl": {
+    "model": "SpatialDomainNet",
+    "test_sample": "Ctrl",
+    "accuracy": 0.8816714935870914,
+    "f1_macro": 0.6882189760827723,
+    "f1_weighted": 0.8718492111313446,
+    "ari": 0.8199148307836277,
+    "nmi": 0.819920792511782
+  },
+  "DualGCN_Ctrl": {
+    "model": "DualGCN",
+    "test_sample": "Ctrl",
+    "accuracy": 0.864294580057923,
+    "f1_macro": 0.6651061099062495,
+    "f1_weighted": 0.8530466566099658,
+    "ari": 0.7917973492126581,
+    "nmi": 0.7970796981254831
+  },
+  "SpatialGAT_Ctrl": {
+    "model": "SpatialGAT",
+    "test_sample": "Ctrl",
+    "accuracy": 0.8779478692594125,
+    "f1_macro": 0.6718868909365026,
+    "f1_weighted": 0.8649284921560019,
+    "ari": 0.820053939999454,
+    "nmi": 0.8198435493764615
+  },
+  "FeatureGAT_Ctrl": {
+    "model": "FeatureGAT",
+    "test_sample": "Ctrl",
+    "accuracy": 0.8874637980968142,
+    "f1_macro": 0.6856066690547096,
+    "f1_weighted": 0.8764999331134047,
+    "ari": 0.8301044914341269,
+    "nmi": 0.8307356047633002
+  },
+  "ExprOnly_Ctrl": {
+    "model": "ExprOnly",
+    "test_sample": "Ctrl",
+    "accuracy": 0.8663632602399669,
+    "f1_macro": 0.660954210307367,
+    "f1_weighted": 0.8535958125821098,
+    "ari": 0.8091468204434566,
+    "nmi": 0.8111408815573008
+  },
+  "RF_Ctrl": {
+    "model": "RF",
+    "test_sample": "Ctrl",
+    "accuracy": 0.8431940422010757,
+    "f1_macro": 0.6542072370711006,
+    "f1_weighted": 0.8384913255186363,
+    "ari": 0.7647119701527539,
+    "nmi": 0.7978875111882092
+  }
+}
