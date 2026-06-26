@@ -6,7 +6,6 @@ SpatialDomainAE is an unsupervised model for spatial domain identification in sp
 
 The method is targeted at **pathological tissue with disrupted architecture**: on a mouse MCAO ischemic-stroke 10x Visium time course it significantly outperforms STAGATE, GraphST, SpaGCN, and the dual-view Spatial-MGCN at the most disrupted time point (3 DPI; all paired Wilcoxon p ≤ 0.037 over 10 seeds) and is competitive on average; on intact laminar cortex (DLPFC) it is comparable to most spatial baselines but below GraphST.
 
----
 
 ## Repository layout
 
@@ -109,14 +108,17 @@ $ENV/bin/python scripts/rev13_fig3.py
 $ENV/bin/python scripts/rev09_analyze.py
 ```
 
+### One-step table reproduction
+
+`python scripts/rev09_analyze.py` recomputes **every number in Table 1, Table 2, and
+Supplementary Tables S1–S2** (benchmark, feature-graph controls, deployment, ablation),
+including the paired Wilcoxon tests and Benjamini–Hochberg correction, directly from the
+included `results/*.csv` — no GPU or model re-training required. The benchmark uses the
+same 10 seeds for every method; the internal ablation additionally uses 2 repeats/seed.
+
 ### Note on reproducibility and run-to-run variance
 
 Domain-identification ARI on the 3 DPI lesion has non-trivial run-to-run variance
 (≈ ±0.03). A single run can therefore over- or under-state performance; we report the
 10-seed mean (3 DPI ARI 0.700 ± 0.025 for SpatialDomainAE) with paired Wilcoxon tests
 rather than any single run, and recommend the same protocol for re-evaluation.
-
-## Citation
-
-Chen Y-Y, Hu W-T, Zhang G, Rao X-L, Jiang T. *Dual-Graph Attention Autoencoder for
-Spatial Domain Identification in Ischemic Stroke.* (under revision).
